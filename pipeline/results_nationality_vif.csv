@@ -1,0 +1,114 @@
+language,column,source_field,vif
+ar,age_centered,age,4.836606224724651
+ar,gender_Male,gender,6.879757252206035
+ar,ethnicity_Other,ethnicity,8.432079724340007
+ar,ethnicity_Other_ethnicity,ethnicity,3.099394527159375
+ar,ethnicity_White,ethnicity,11.521948768047793
+ar,country_birth_Egypt,country,53.02276303779309
+ar,country_birth_Jordan,country,10.705226607213067
+ar,country_birth_Lebanon,country,9.523381268273393
+ar,country_birth_Morocco,country,21.162864609941703
+ar,country_birth_Other_country_birth,country,15.979364588440184
+ar,country_birth_Saudi Arabia,country,13.030877524399497
+ar,country_birth_Syrian Arab Republic,country,24.056993470577062
+ar,country_residence_France,country,5.656029415741675
+ar,country_residence_Germany,country,16.215379720354015
+ar,country_residence_Hungary,country,12.170743331431925
+ar,country_residence_Italy,country,8.79736347787267
+ar,country_residence_Other_country_residence,country,7.540577605489866
+ar,country_residence_United Kingdom,country,33.38852425322712
+ar,country_residence_United States,country,11.896865280259561
+ar,nationality_Egypt,nationality,38.931974606935306
+ar,nationality_Germany,nationality,7.901008306909785
+ar,nationality_Jordan,nationality,13.87776500963597
+ar,nationality_Lebanon,nationality,15.992193036886565
+ar,nationality_Morocco,nationality,19.756723706298793
+ar,nationality_Other_nationality,nationality,9.748021089824675
+ar,nationality_Palestinian Territory,nationality,7.267320996264037
+ar,nationality_Saudi Arabia,nationality,12.423086930072385
+ar,nationality_Syrian Arab Republic,nationality,21.824178632878457
+ar,nationality_United Kingdom,nationality,7.870621350137433
+ar,nationality_United States,nationality,9.424460568059503
+de,age_centered,age,1.216065231012175
+de,gender_Male,gender,2.0892086852306795
+de,ethnicity_White,ethnicity,3.8492953238592067
+de,country_birth_Germany,country,
+de,country_birth_Other_country_birth,country,
+de,country_birth_Switzerland,country,
+de,country_residence_Germany,country,
+de,country_residence_Switzerland,country,
+de,nationality_Germany,nationality,
+de,nationality_Switzerland,nationality,
+en,age_centered,age,2.047225931502942
+en,gender_Male,gender,2.8344087994405243
+en,ethnicity_Black,ethnicity,2.7685256649857153
+en,ethnicity_Other,ethnicity,2.8491118012720063
+en,ethnicity_White,ethnicity,5.7148684974802215
+en,country_birth_India,country,17.613416256945946
+en,country_birth_Ireland,country,13.694203369052898
+en,country_birth_Other_country_birth,country,15.365179881368856
+en,country_birth_United Kingdom,country,17.14243869523658
+en,country_birth_United States,country,50.4386273531842
+en,country_residence_Ireland,country,
+en,country_residence_Other_country_residence,country,5.922113301439368
+en,country_residence_South Africa,country,7.1937504303925595
+en,country_residence_United Kingdom,country,47.63613538294879
+en,country_residence_United States,country,51.68192632749253
+en,nationality_India,nationality,10.889235875081024
+en,nationality_Ireland,nationality,
+en,nationality_United Kingdom,nationality,56.322438894274036
+en,nationality_United States,nationality,13.286873792097621
+es,age_centered,age,1.482342136547961
+es,gender_Male,gender,3.1810723940181735
+es,ethnicity_Other,ethnicity,1.9122723420225394
+es,ethnicity_Other_ethnicity,ethnicity,2.364083701833759
+es,ethnicity_White,ethnicity,4.592641763912986
+es,country_birth_Colombia,country,
+es,country_birth_Mexico,country,71.22734227420759
+es,country_birth_Other_country_birth,country,7.509617475842022
+es,country_birth_Spain,country,
+es,country_birth_United States,country,28.162534079313858
+es,country_residence_Italy,country,1.2699128231234091
+es,country_residence_Mexico,country,26.097704741367718
+es,country_residence_Other_country_residence,country,1.8840029350796599
+es,country_residence_Spain,country,6.0217911012514875
+es,country_residence_United Kingdom,country,1.636176025970139
+es,country_residence_United States,country,8.64183073685306
+es,nationality_Colombia,nationality,
+es,nationality_Mexico,nationality,97.30660300174057
+es,nationality_Spain,nationality,
+es,nationality_United States,nationality,45.123427420580484
+fr,age_centered,age,1.2006444626454165
+fr,gender_Male,gender,2.935091795951046
+fr,ethnicity_Mixed,ethnicity,1.3891851373688544
+fr,ethnicity_Other_ethnicity,ethnicity,1.2131410680714823
+fr,ethnicity_White,ethnicity,3.483572730686049
+fr,country_birth_France,country,24.47768607087557
+fr,country_birth_Other_country_birth,country,1.47062341549389
+fr,country_birth_Togo,country,1.558554427838663
+fr,country_residence_France,country,
+fr,nationality_France,nationality,
+hi,age_centered,age,1.4067874143456187
+hi,gender_Male,gender,7.32450878279685
+hi,ethnicity_Other,ethnicity,1.602273473996228
+hi,country_residence_Germany,country,4.069292918800057
+hi,country_residence_Ireland,country,2.395245388793246
+hi,country_residence_Netherlands,country,2.0565425052919633
+hi,country_residence_Other_country_residence,country,1.7447445605364647
+hi,country_residence_South Africa,country,1.0807021711556437
+hi,country_residence_United Kingdom,country,1.865327007061284
+it,age_centered,age,1.1043946135350942
+it,gender_Male,gender,2.104832946684224
+it,ethnicity_White,ethnicity,2.1050024954544138
+it,country_birth_Other_country_birth,country,1.129062623385411
+nl,age_centered,age,1.1233734651454177
+nl,gender_Male,gender,1.9392259666876066
+nl,ethnicity_White,ethnicity,1.7765950286196288
+pt,age_centered,age,2.1915952882131418
+pt,gender_Male,gender,2.0209381736628425
+pt,ethnicity_Other_ethnicity,ethnicity,1.5314789894361958
+pt,ethnicity_White,ethnicity,7.775634340143423
+pt,country_birth_Portugal,country,
+pt,country_residence_Portugal,country,7.684613075955337
+pt,country_residence_United States,country,2.2869789587932887
+pt,nationality_Portugal,nationality,

@@ -1,0 +1,10 @@
+language,n_annotators,concord_eq_1,concord_eq_2,concord_ge_3,share_concord_1
+ar,47,0,0,47,0.0
+de,46,0,44,2,0.0
+en,51,0,38,13,0.0
+es,92,0,56,36,0.0
+fr,43,0,38,5,0.0
+hi,18,0,0,18,0.0
+it,23,0,22,1,0.0
+nl,21,0,21,0,0.0
+pt,44,0,24,20,0.0

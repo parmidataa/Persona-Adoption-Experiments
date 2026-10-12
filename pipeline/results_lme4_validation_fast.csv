@@ -1,0 +1,10 @@
+cell,base,added,llf_base,llf_full,df,lr,var_text,var_ann,var_e
+es_M1M2,age_centered + gender + ethnicity + nationality,country_birth + country_residence,-10631.76600760261,-10618.30311148606,9.0,26.925792233098036,,,
+it_M2M3,age_centered + gender + ethnicity + country_birth,student_status + employment_status,-2425.5372746219723,-2415.4653461110047,4.0,20.14385702193522,,,
+pt_M2M3,age_centered + gender + ethnicity + nationality + country_birth + country_residence,student_status + employment_status,-5360.437691651499,-5352.487621507244,5.0,15.900140288511466,,,
+de_agexnat,age_centered + gender + ethnicity + nationality,age_centered:nationality,-6745.447386269042,-6740.506318815399,2.0,9.882134907285945,,,
+fr_agexeth,age_centered + gender + ethnicity + nationality,age_centered:ethnicity,-4614.834398774229,-4610.340486101452,3.0,8.987825345553574,,,
+en_genxnat,age_centered + gender + ethnicity + nationality,gender:nationality,-7557.5579189122645,-7550.139078413807,4.0,14.837680996915878,,,
+ceil_ar,age_centered + gender + ethnicity + nationality,,,,,,0.07472986614662953,0.011570155720124051,0.1354428395932323
+ceil_fr,age_centered + gender + ethnicity + nationality,,,,,,0.06454969401477001,0.005278757559819574,0.13370295912414176
+ceil_hi,age_centered + gender + ethnicity,,,,,,0.02754072297860515,0.01576233552895799,0.18045298840096446

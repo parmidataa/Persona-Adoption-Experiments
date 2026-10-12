@@ -1,0 +1,15 @@
+# Python 3.13 (versions used for the thesis)
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+statsmodels==0.14.6
+patsy==1.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
+pyarrow==23.0.1
+datasets==4.8.4
+
+# Only needed to send new requests to the LLM APIs (Study 2)
+openai==2.43.0
+anthropic==1.6.0

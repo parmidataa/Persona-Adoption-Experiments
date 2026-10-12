@@ -1,0 +1,134 @@
+{
+  "ar": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 62,
+    "n_texts": 1741,
+    "n_rows": 4711,
+    "irony_rate": 0.32222458076841437,
+    "original_n_rows": 9688,
+    "original_n_annotators": 62,
+    "original_n_texts": 2038
+  },
+  "de": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 67,
+    "n_texts": 1939,
+    "n_rows": 4711,
+    "irony_rate": 0.3209509658246657,
+    "original_n_rows": 11969,
+    "original_n_annotators": 67,
+    "original_n_texts": 2137
+  },
+  "en": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 70,
+    "n_texts": 2267,
+    "n_rows": 4711,
+    "irony_rate": 0.3118233920611335,
+    "original_n_rows": 13374,
+    "original_n_annotators": 70,
+    "original_n_texts": 2668
+  },
+  "es": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 119,
+    "n_texts": 2922,
+    "n_rows": 4711,
+    "irony_rate": 0.3279558480152834,
+    "original_n_rows": 23441,
+    "original_n_annotators": 119,
+    "original_n_texts": 4308
+  },
+  "fr": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 49,
+    "n_texts": 1515,
+    "n_rows": 4711,
+    "irony_rate": 0.29951178093822967,
+    "original_n_rows": 8593,
+    "original_n_annotators": 49,
+    "original_n_texts": 1559
+  },
+  "hi": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)"
+    ],
+    "n_annotators": 24,
+    "n_texts": 667,
+    "n_rows": 4711,
+    "irony_rate": 0.34833368711526214,
+    "original_n_rows": 4711,
+    "original_n_annotators": 24,
+    "original_n_texts": 667
+  },
+  "it": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)"
+    ],
+    "n_annotators": 24,
+    "n_texts": 882,
+    "n_rows": 4711,
+    "irony_rate": 0.31437062194863086,
+    "original_n_rows": 4790,
+    "original_n_annotators": 24,
+    "original_n_texts": 882
+  },
+  "nl": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)"
+    ],
+    "n_annotators": 25,
+    "n_texts": 946,
+    "n_rows": 4711,
+    "irony_rate": 0.2655487157715984,
+    "original_n_rows": 4991,
+    "original_n_annotators": 25,
+    "original_n_texts": 946
+  },
+  "pt": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 49,
+    "n_texts": 1689,
+    "n_rows": 4711,
+    "irony_rate": 0.3750796009339843,
+    "original_n_rows": 9754,
+    "original_n_annotators": 49,
+    "original_n_texts": 1757
+  }
+}

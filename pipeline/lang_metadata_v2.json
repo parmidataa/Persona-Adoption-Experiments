@@ -1,0 +1,737 @@
+{
+  "ar": {
+    "n_rows": 7394,
+    "n_annotators": 47,
+    "n_texts": 1985,
+    "irony_rate": 0.32404652420881797,
+    "usable_cat_vars": [
+      "ethnicity",
+      "nationality",
+      "country_birth",
+      "country_residence",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 4,
+        "categories": {
+          "Other": 24,
+          "White": 13,
+          "Mixed": 8,
+          "Other_ethnicity": 2
+        }
+      },
+      "nationality": {
+        "n_categories": 12,
+        "categories": {
+          "Egypt": 10,
+          "Syrian Arab Republic": 7,
+          "Lebanon": 6,
+          "Other_nationality": 4,
+          "Morocco": 4,
+          "Saudi Arabia": 3,
+          "Jordan": 3,
+          "Germany": 2,
+          "Palestinian Territory": 2,
+          "Canada": 2,
+          "United States": 2,
+          "United Kingdom": 2
+        }
+      },
+      "country_birth": {
+        "n_categories": 8,
+        "categories": {
+          "Egypt": 12,
+          "Syrian Arab Republic": 7,
+          "Other_country_birth": 7,
+          "Lebanon": 6,
+          "Morocco": 5,
+          "Saudi Arabia": 5,
+          "Jordan": 3,
+          "Algeria": 2
+        }
+      },
+      "country_residence": {
+        "n_categories": 8,
+        "categories": {
+          "United Kingdom": 15,
+          "Germany": 9,
+          "United States": 5,
+          "Hungary": 5,
+          "France": 4,
+          "Canada": 3,
+          "Italy": 3,
+          "Other_country_residence": 3
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "Yes": 25,
+          "No": 22
+        }
+      },
+      "employment_status": {
+        "n_categories": 5,
+        "categories": {
+          "Full-Time": 19,
+          "Unemployed (and job seeking)": 11,
+          "Part-Time": 11,
+          "Other": 5,
+          "Other_employment_status": 1
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 41,
+          "Old": 6
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Male": 34,
+          "Female": 13
+        }
+      }
+    }
+  },
+  "de": {
+    "n_rows": 8189,
+    "n_annotators": 46,
+    "n_texts": 2120,
+    "irony_rate": 0.3254365612406887,
+    "usable_cat_vars": [
+      "ethnicity",
+      "nationality",
+      "country_birth",
+      "country_residence",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 2,
+        "categories": {
+          "White": 44,
+          "Other_ethnicity": 2
+        }
+      },
+      "nationality": {
+        "n_categories": 3,
+        "categories": {
+          "Austria": 18,
+          "Germany": 16,
+          "Switzerland": 12
+        }
+      },
+      "country_birth": {
+        "n_categories": 4,
+        "categories": {
+          "Austria": 18,
+          "Germany": 17,
+          "Switzerland": 10,
+          "Other_country_birth": 1
+        }
+      },
+      "country_residence": {
+        "n_categories": 3,
+        "categories": {
+          "Austria": 18,
+          "Germany": 16,
+          "Switzerland": 12
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "No": 32,
+          "Yes": 14
+        }
+      },
+      "employment_status": {
+        "n_categories": 6,
+        "categories": {
+          "Full-Time": 24,
+          "Part-Time": 10,
+          "Not in paid work (e.g. homemaker', 'retired or disabled)": 5,
+          "Other": 3,
+          "Unemployed (and job seeking)": 2,
+          "Due to start a new job within the next month": 2
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 43,
+          "Old": 3
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Male": 24,
+          "Female": 22
+        }
+      }
+    }
+  },
+  "en": {
+    "n_rows": 9840,
+    "n_annotators": 51,
+    "n_texts": 2650,
+    "irony_rate": 0.31097560975609756,
+    "usable_cat_vars": [
+      "ethnicity",
+      "nationality",
+      "country_birth",
+      "country_residence",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 4,
+        "categories": {
+          "White": 34,
+          "Asian": 12,
+          "Black": 3,
+          "Other": 2
+        }
+      },
+      "nationality": {
+        "n_categories": 5,
+        "categories": {
+          "United Kingdom": 13,
+          "Ireland": 11,
+          "Australia": 10,
+          "India": 10,
+          "United States": 7
+        }
+      },
+      "country_birth": {
+        "n_categories": 6,
+        "categories": {
+          "United Kingdom": 14,
+          "Ireland": 12,
+          "Australia": 9,
+          "United States": 8,
+          "India": 5,
+          "Other_country_birth": 3
+        }
+      },
+      "country_residence": {
+        "n_categories": 6,
+        "categories": {
+          "United Kingdom": 14,
+          "Australia": 12,
+          "Ireland": 11,
+          "United States": 10,
+          "South Africa": 2,
+          "Other_country_residence": 2
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "No": 40,
+          "Yes": 11
+        }
+      },
+      "employment_status": {
+        "n_categories": 5,
+        "categories": {
+          "Full-Time": 25,
+          "Unemployed (and job seeking)": 11,
+          "Part-Time": 10,
+          "Not in paid work (e.g. homemaker', 'retired or disabled)": 4,
+          "Other_employment_status": 1
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 47,
+          "Old": 4
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Male": 27,
+          "Female": 24
+        }
+      }
+    }
+  },
+  "es": {
+    "n_rows": 18178,
+    "n_annotators": 92,
+    "n_texts": 4305,
+    "irony_rate": 0.32528330949499396,
+    "usable_cat_vars": [
+      "ethnicity",
+      "nationality",
+      "country_birth",
+      "country_residence",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 4,
+        "categories": {
+          "White": 49,
+          "Mixed": 24,
+          "Other": 17,
+          "Other_ethnicity": 2
+        }
+      },
+      "nationality": {
+        "n_categories": 5,
+        "categories": {
+          "Spain": 21,
+          "Mexico": 21,
+          "United States": 19,
+          "Argentina": 16,
+          "Colombia": 15
+        }
+      },
+      "country_birth": {
+        "n_categories": 6,
+        "categories": {
+          "Mexico": 22,
+          "Spain": 21,
+          "Argentina": 17,
+          "Colombia": 15,
+          "United States": 14,
+          "Other_country_birth": 3
+        }
+      },
+      "country_residence": {
+        "n_categories": 7,
+        "categories": {
+          "Spain": 30,
+          "United States": 25,
+          "Mexico": 22,
+          "United Kingdom": 5,
+          "Other_country_residence": 5,
+          "Italy": 3,
+          "Hungary": 2
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "No": 57,
+          "Yes": 35
+        }
+      },
+      "employment_status": {
+        "n_categories": 6,
+        "categories": {
+          "Full-Time": 40,
+          "Unemployed (and job seeking)": 24,
+          "Part-Time": 16,
+          "Other": 6,
+          "Not in paid work (e.g. homemaker', 'retired or disabled)": 3,
+          "Due to start a new job within the next month": 3
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 89,
+          "Old": 3
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Male": 51,
+          "Female": 41
+        }
+      }
+    }
+  },
+  "fr": {
+    "n_rows": 7552,
+    "n_annotators": 43,
+    "n_texts": 1559,
+    "irony_rate": 0.2891949152542373,
+    "usable_cat_vars": [
+      "ethnicity",
+      "nationality",
+      "country_birth",
+      "country_residence",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 4,
+        "categories": {
+          "White": 35,
+          "Mixed": 3,
+          "Black": 3,
+          "Other_ethnicity": 2
+        }
+      },
+      "nationality": {
+        "n_categories": 2,
+        "categories": {
+          "France": 23,
+          "Canada": 20
+        }
+      },
+      "country_birth": {
+        "n_categories": 4,
+        "categories": {
+          "France": 21,
+          "Canada": 17,
+          "Other_country_birth": 3,
+          "Togo": 2
+        }
+      },
+      "country_residence": {
+        "n_categories": 2,
+        "categories": {
+          "France": 23,
+          "Canada": 20
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "No": 28,
+          "Yes": 15
+        }
+      },
+      "employment_status": {
+        "n_categories": 5,
+        "categories": {
+          "Full-Time": 23,
+          "Other": 6,
+          "Not in paid work (e.g. homemaker', 'retired or disabled)": 5,
+          "Unemployed (and job seeking)": 5,
+          "Part-Time": 4
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 37,
+          "Old": 6
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Male": 25,
+          "Female": 18
+        }
+      }
+    }
+  },
+  "hi": {
+    "n_rows": 3522,
+    "n_annotators": 18,
+    "n_texts": 667,
+    "irony_rate": 0.34043157296990345,
+    "usable_cat_vars": [
+      "ethnicity",
+      "country_residence",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 2,
+        "categories": {
+          "Asian": 16,
+          "Other": 2
+        }
+      },
+      "nationality": {
+        "n_categories": 1,
+        "categories": {
+          "India": 18
+        }
+      },
+      "country_birth": {
+        "n_categories": 1,
+        "categories": {
+          "India": 18
+        }
+      },
+      "country_residence": {
+        "n_categories": 7,
+        "categories": {
+          "United Kingdom": 4,
+          "Germany": 4,
+          "Canada": 3,
+          "Ireland": 2,
+          "Netherlands": 2,
+          "South Africa": 2,
+          "Other_country_residence": 1
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "No": 10,
+          "Yes": 8
+        }
+      },
+      "employment_status": {
+        "n_categories": 4,
+        "categories": {
+          "Full-Time": 10,
+          "Part-Time": 4,
+          "Other_employment_status": 2,
+          "Due to start a new job within the next month": 2
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 17,
+          "Other_generation": 1
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Male": 10,
+          "Female": 8
+        }
+      }
+    }
+  },
+  "it": {
+    "n_rows": 4590,
+    "n_annotators": 23,
+    "n_texts": 882,
+    "irony_rate": 0.31895424836601305,
+    "usable_cat_vars": [
+      "ethnicity",
+      "country_birth",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 2,
+        "categories": {
+          "White": 22,
+          "Other_ethnicity": 1
+        }
+      },
+      "nationality": {
+        "n_categories": 1,
+        "categories": {
+          "Italy": 23
+        }
+      },
+      "country_birth": {
+        "n_categories": 2,
+        "categories": {
+          "Italy": 22,
+          "Other_country_birth": 1
+        }
+      },
+      "country_residence": {
+        "n_categories": 1,
+        "categories": {
+          "Italy": 23
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "No": 14,
+          "Yes": 9
+        }
+      },
+      "employment_status": {
+        "n_categories": 4,
+        "categories": {
+          "Full-Time": 9,
+          "Unemployed (and job seeking)": 7,
+          "Part-Time": 5,
+          "Other_employment_status": 2
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 21,
+          "Old": 2
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Male": 13,
+          "Female": 10
+        }
+      }
+    }
+  },
+  "nl": {
+    "n_rows": 4191,
+    "n_annotators": 21,
+    "n_texts": 946,
+    "irony_rate": 0.2665235027439752,
+    "usable_cat_vars": [
+      "ethnicity",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 2,
+        "categories": {
+          "White": 19,
+          "Mixed": 2
+        }
+      },
+      "nationality": {
+        "n_categories": 1,
+        "categories": {
+          "Netherlands": 21
+        }
+      },
+      "country_birth": {
+        "n_categories": 1,
+        "categories": {
+          "Netherlands": 21
+        }
+      },
+      "country_residence": {
+        "n_categories": 1,
+        "categories": {
+          "Netherlands": 21
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "No": 15,
+          "Yes": 6
+        }
+      },
+      "employment_status": {
+        "n_categories": 4,
+        "categories": {
+          "Full-Time": 10,
+          "Unemployed (and job seeking)": 4,
+          "Not in paid work (e.g. homemaker', 'retired or disabled)": 4,
+          "Part-Time": 3
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 16,
+          "Old": 5
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Female": 11,
+          "Male": 10
+        }
+      }
+    }
+  },
+  "pt": {
+    "n_rows": 8761,
+    "n_annotators": 44,
+    "n_texts": 1757,
+    "irony_rate": 0.37781075219723775,
+    "usable_cat_vars": [
+      "ethnicity",
+      "nationality",
+      "country_birth",
+      "country_residence",
+      "student_status",
+      "employment_status",
+      "generation"
+    ],
+    "fields": {
+      "ethnicity": {
+        "n_categories": 3,
+        "categories": {
+          "White": 34,
+          "Mixed": 8,
+          "Other_ethnicity": 2
+        }
+      },
+      "nationality": {
+        "n_categories": 2,
+        "categories": {
+          "Portugal": 24,
+          "Brazil": 20
+        }
+      },
+      "country_birth": {
+        "n_categories": 2,
+        "categories": {
+          "Portugal": 24,
+          "Brazil": 20
+        }
+      },
+      "country_residence": {
+        "n_categories": 3,
+        "categories": {
+          "Portugal": 35,
+          "United States": 5,
+          "Other_country_residence": 4
+        }
+      },
+      "student_status": {
+        "n_categories": 2,
+        "categories": {
+          "Yes": 29,
+          "No": 15
+        }
+      },
+      "employment_status": {
+        "n_categories": 5,
+        "categories": {
+          "Full-Time": 14,
+          "Other": 14,
+          "Unemployed (and job seeking)": 8,
+          "Part-Time": 6,
+          "Due to start a new job within the next month": 2
+        }
+      },
+      "generation": {
+        "n_categories": 2,
+        "categories": {
+          "Young": 37,
+          "Old": 7
+        }
+      },
+      "gender": {
+        "n_categories": 2,
+        "categories": {
+          "Female": 22,
+          "Male": 22
+        }
+      }
+    }
+  }
+}

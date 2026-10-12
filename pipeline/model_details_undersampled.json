@@ -1,0 +1,519 @@
+{
+  "ar": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.Mixed]": -0.12943226130057797,
+        "C(ethnicity)[T.Other]": -0.1408025542807754,
+        "C(ethnicity)[T.White]": -0.09324446736357972,
+        "C(gender)[T.Male]": -0.016687130223296254,
+        "C(nationality)[T.Canada]": 0.2189238251859496,
+        "C(nationality)[T.Egypt]": 0.1241341600840203,
+        "C(nationality)[T.Germany]": 0.17247980575459934,
+        "C(nationality)[T.Israel]": 0.21483185127953433,
+        "C(nationality)[T.Jordan]": 0.14008235408496547,
+        "C(nationality)[T.Lebanon]": 0.13518258567240007,
+        "C(nationality)[T.Morocco]": 0.17125787394227915,
+        "C(nationality)[T.Netherlands]": 0.11188859878835271,
+        "C(nationality)[T.Other_nat]": 0.07029025036243823,
+        "C(nationality)[T.Palestinian Territory]": 0.09211202378292097,
+        "C(nationality)[T.Saudi Arabia]": 0.016588361109383856,
+        "C(nationality)[T.Syrian Arab Republic]": 0.1386459899013301,
+        "C(nationality)[T.United Kingdom]": 0.08351015809726077,
+        "C(nationality)[T.United States]": 0.07737350225973763,
+        "Group Var": NaN,
+        "Intercept": 0.3531063127035991,
+        "age_centered": 0.003910129466570855
+      },
+      "se": {
+        "C(ethnicity)[T.Mixed]": 0.06575024102084126,
+        "C(ethnicity)[T.Other]": 0.06206767651026975,
+        "C(ethnicity)[T.White]": 0.0647483613639878,
+        "C(gender)[T.Male]": 0.017251186103244828,
+        "C(nationality)[T.Canada]": 0.0557993580348594,
+        "C(nationality)[T.Egypt]": 0.040951426553184254,
+        "C(nationality)[T.Germany]": 0.047976385517866475,
+        "C(nationality)[T.Israel]": 0.05763066944630214,
+        "C(nationality)[T.Jordan]": 0.044207356893685684,
+        "C(nationality)[T.Lebanon]": 0.04129203913777572,
+        "C(nationality)[T.Morocco]": 0.05001742656586349,
+        "C(nationality)[T.Netherlands]": 0.05429981767609693,
+        "C(nationality)[T.Other_nat]": 0.04091998278432669,
+        "C(nationality)[T.Palestinian Territory]": 0.04520533103701349,
+        "C(nationality)[T.Saudi Arabia]": 0.048439523751385244,
+        "C(nationality)[T.Syrian Arab Republic]": 0.04164762026602286,
+        "C(nationality)[T.United Kingdom]": 0.06441662642600549,
+        "C(nationality)[T.United States]": 0.05411892287259885,
+        "Group Var": NaN,
+        "Intercept": 0.0730665303389377,
+        "age_centered": 0.0010039856803865958
+      },
+      "z": {
+        "C(ethnicity)[T.Mixed]": -1.9685442865456726,
+        "C(ethnicity)[T.Other]": -2.268532708123497,
+        "C(ethnicity)[T.White]": -1.4401054389531018,
+        "C(gender)[T.Male]": -0.9673033566171733,
+        "C(nationality)[T.Canada]": 3.923411180630104,
+        "C(nationality)[T.Egypt]": 3.0312536224545275,
+        "C(nationality)[T.Germany]": 3.595097961066025,
+        "C(nationality)[T.Israel]": 3.7277347867649833,
+        "C(nationality)[T.Jordan]": 3.16875660360898,
+        "C(nationality)[T.Lebanon]": 3.2738171447854043,
+        "C(nationality)[T.Morocco]": 3.423964120120513,
+        "C(nationality)[T.Netherlands]": 2.060570432405092,
+        "C(nationality)[T.Other_nat]": 1.717748776506354,
+        "C(nationality)[T.Palestinian Territory]": 2.0376363068218866,
+        "C(nationality)[T.Saudi Arabia]": 0.34245508264125885,
+        "C(nationality)[T.Syrian Arab Republic]": 3.3290255005143923,
+        "C(nationality)[T.United Kingdom]": 1.2964068863989295,
+        "C(nationality)[T.United States]": 1.4296940543676802,
+        "Group Var": NaN,
+        "Intercept": 4.832668405980489,
+        "age_centered": 3.8946068086003143
+      },
+      "p": {
+        "C(ethnicity)[T.Mixed]": 0.049005445745394394,
+        "C(ethnicity)[T.Other]": 0.023296757786569144,
+        "C(ethnicity)[T.White]": 0.14983757055195143,
+        "C(gender)[T.Male]": 0.33339240621266897,
+        "C(nationality)[T.Canada]": 8.73039605852144e-05,
+        "C(nationality)[T.Egypt]": 0.0024354058570996463,
+        "C(nationality)[T.Germany]": 0.0003242695372817649,
+        "C(nationality)[T.Israel]": 0.00019320853948605029,
+        "C(nationality)[T.Jordan]": 0.0015309254179767943,
+        "C(nationality)[T.Lebanon]": 0.001061052485242671,
+        "C(nationality)[T.Morocco]": 0.0006171476859600204,
+        "C(nationality)[T.Netherlands]": 0.03934403999676305,
+        "C(nationality)[T.Other_nat]": 0.08584244832370884,
+        "C(nationality)[T.Palestinian Territory]": 0.04158631828095391,
+        "C(nationality)[T.Saudi Arabia]": 0.7320084415173905,
+        "C(nationality)[T.Syrian Arab Republic]": 0.000871504245704536,
+        "C(nationality)[T.United Kingdom]": 0.1948353408160799,
+        "C(nationality)[T.United States]": 0.15280484746417825,
+        "Group Var": NaN,
+        "Intercept": 1.347150688057334e-06,
+        "age_centered": 9.835814523294019e-05
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.01671761,
+      "r2_conditional": 0.32185587,
+      "r2_marginal_logistic": 0.00110259,
+      "r2_conditional_logistic": 0.02122762,
+      "var_fixed": 0.00370605,
+      "var_random": 0.06764465,
+      "var_residual": 0.15033454
+    }
+  },
+  "de": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.Other]": 0.12186136511816976,
+        "C(ethnicity)[T.White]": 0.09303672874013665,
+        "C(gender)[T.Male]": -0.0033564685179835966,
+        "C(nationality)[T.Germany]": -0.03247259076587504,
+        "C(nationality)[T.Switzerland]": 0.015456223957147042,
+        "Group Var": NaN,
+        "Intercept": 0.2398355517438806,
+        "age_centered": 0.00027555432526677094
+      },
+      "se": {
+        "C(ethnicity)[T.Other]": 0.06506169216475688,
+        "C(ethnicity)[T.White]": 0.03799420789623474,
+        "C(gender)[T.Male]": 0.012897573000118618,
+        "C(nationality)[T.Germany]": 0.016298319557653318,
+        "C(nationality)[T.Switzerland]": 0.016600262871749958,
+        "Group Var": NaN,
+        "Intercept": 0.03919733678092018,
+        "age_centered": 0.0005550044878795403
+      },
+      "z": {
+        "C(ethnicity)[T.Other]": 1.8730125372327862,
+        "C(ethnicity)[T.White]": 2.448708208214986,
+        "C(gender)[T.Male]": -0.2602403194734953,
+        "C(nationality)[T.Germany]": -1.9923888871492064,
+        "C(nationality)[T.Switzerland]": 0.9310830844401975,
+        "Group Var": NaN,
+        "Intercept": 6.1186695689137665,
+        "age_centered": 0.4964902650058895
+      },
+      "p": {
+        "C(ethnicity)[T.Other]": 0.06106665375704798,
+        "C(ethnicity)[T.White]": 0.014336954107380263,
+        "C(gender)[T.Male]": 0.7946784049410842,
+        "C(nationality)[T.Germany]": 0.046328405698998924,
+        "C(nationality)[T.Switzerland]": 0.3518105879487118,
+        "Group Var": NaN,
+        "Intercept": 9.43598376349894e-10,
+        "age_centered": 0.6195485540482435
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.00276112,
+      "r2_conditional": 0.27506047,
+      "r2_marginal_logistic": 0.00018044,
+      "r2_conditional_logistic": 0.01797548,
+      "var_fixed": 0.0006045,
+      "var_random": 0.05961494,
+      "var_residual": 0.15871219
+    }
+  },
+  "en": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.Black]": -0.02081568728293705,
+        "C(ethnicity)[T.Other]": -0.15539459883044618,
+        "C(ethnicity)[T.White]": -0.07985716799574742,
+        "C(gender)[T.Male]": -0.009123973337233611,
+        "C(nationality)[T.India]": -0.03525413702114958,
+        "C(nationality)[T.Ireland]": 0.002434698765373843,
+        "C(nationality)[T.United Kingdom]": 0.02850044042954723,
+        "C(nationality)[T.United States]": -0.05647403190797871,
+        "Group Var": NaN,
+        "Intercept": 0.38763933194862177,
+        "age_centered": 0.00037681700028142917
+      },
+      "se": {
+        "C(ethnicity)[T.Black]": 0.043388460657014905,
+        "C(ethnicity)[T.Other]": 0.039256870938330114,
+        "C(ethnicity)[T.White]": 0.029655350731474718,
+        "C(gender)[T.Male]": 0.014263414876817457,
+        "C(nationality)[T.India]": 0.03012392885640431,
+        "C(nationality)[T.Ireland]": 0.02187868679892524,
+        "C(nationality)[T.United Kingdom]": 0.021710732693747115,
+        "C(nationality)[T.United States]": 0.023211257527756355,
+        "Group Var": NaN,
+        "Intercept": 0.029017172406765948,
+        "age_centered": 0.000697836633984999
+      },
+      "z": {
+        "C(ethnicity)[T.Black]": -0.47975168899133647,
+        "C(ethnicity)[T.Other]": -3.958405117783345,
+        "C(ethnicity)[T.White]": -2.69284179839394,
+        "C(gender)[T.Male]": -0.6396766423770609,
+        "C(nationality)[T.India]": -1.170303421880994,
+        "C(nationality)[T.Ireland]": 0.1112817596298076,
+        "C(nationality)[T.United Kingdom]": 1.3127350804588742,
+        "C(nationality)[T.United States]": -2.4330449067848328,
+        "Group Var": NaN,
+        "Intercept": 13.358962979392015,
+        "age_centered": 0.5399788172908236
+      },
+      "p": {
+        "C(ethnicity)[T.Black]": 0.6314039688349254,
+        "C(ethnicity)[T.Other]": 7.5451902996703e-05,
+        "C(ethnicity)[T.White]": 0.007084587662430165,
+        "C(gender)[T.Male]": 0.5223828438582809,
+        "C(nationality)[T.India]": 0.24187888533199853,
+        "C(nationality)[T.Ireland]": 0.9113929192661456,
+        "C(nationality)[T.United Kingdom]": 0.18927223234487578,
+        "C(nationality)[T.United States]": 0.01497244382467878,
+        "Group Var": NaN,
+        "Intercept": 1.050169786862092e-40,
+        "age_centered": 0.5892116408738319
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.00677354,
+      "r2_conditional": 0.16425804,
+      "r2_marginal_logistic": 0.00043839,
+      "r2_conditional_logistic": 0.01063083,
+      "var_fixed": 0.00145773,
+      "var_random": 0.0338921,
+      "var_residual": 0.17985926
+    }
+  },
+  "es": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.Mixed]": -0.09229855225450648,
+        "C(ethnicity)[T.Other]": -0.0941180154403421,
+        "C(ethnicity)[T.White]": -0.12913351969907355,
+        "C(gender)[T.Male]": -0.0317269843441501,
+        "C(nationality)[T.Colombia]": -0.03595179733049333,
+        "C(nationality)[T.Mexico]": 0.08032705253317968,
+        "C(nationality)[T.Spain]": -0.029467755307233216,
+        "C(nationality)[T.United States]": 0.036103229269277164,
+        "Group Var": NaN,
+        "Intercept": 0.4441691789111264,
+        "age_centered": 0.0018631732546737364
+      },
+      "se": {
+        "C(ethnicity)[T.Mixed]": 0.05557050726613762,
+        "C(ethnicity)[T.Other]": 0.05578483759690154,
+        "C(ethnicity)[T.White]": 0.05449413524707741,
+        "C(gender)[T.Male]": 0.013947977713677326,
+        "C(nationality)[T.Colombia]": 0.02188601629898168,
+        "C(nationality)[T.Mexico]": 0.02272163546656886,
+        "C(nationality)[T.Spain]": 0.021958238309972934,
+        "C(nationality)[T.United States]": 0.02207287008130394,
+        "Group Var": NaN,
+        "Intercept": 0.057035043390222764,
+        "age_centered": 0.0007695839395144039
+      },
+      "z": {
+        "C(ethnicity)[T.Mixed]": -1.6609269340024437,
+        "C(ethnicity)[T.Other]": -1.687161234033416,
+        "C(ethnicity)[T.White]": -2.3696773811269742,
+        "C(gender)[T.Male]": -2.274665546177261,
+        "C(nationality)[T.Colombia]": -1.6426834760315017,
+        "C(nationality)[T.Mexico]": 3.5352671972652536,
+        "C(nationality)[T.Spain]": -1.3419908688143543,
+        "C(nationality)[T.United States]": 1.635638190062884,
+        "Group Var": NaN,
+        "Intercept": 7.7876539143173185,
+        "age_centered": 2.4210136919559044
+      },
+      "p": {
+        "C(ethnicity)[T.Mixed]": 0.09672812210103737,
+        "C(ethnicity)[T.Other]": 0.09157235326360953,
+        "C(ethnicity)[T.White]": 0.017803612760349453,
+        "C(gender)[T.Male]": 0.022926000820755948,
+        "C(nationality)[T.Colombia]": 0.10044843935205156,
+        "C(nationality)[T.Mexico]": 0.00040736301709374395,
+        "C(nationality)[T.Spain]": 0.17959895636555945,
+        "C(nationality)[T.United States]": 0.10191533263873877,
+        "Group Var": NaN,
+        "Intercept": 6.8264858463423235e-15,
+        "age_centered": 0.015477294311521868
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.0148879,
+      "r2_conditional": 0.23706374,
+      "r2_marginal_logistic": 0.00098446,
+      "r2_conditional_logistic": 0.01567573,
+      "var_fixed": 0.00329031,
+      "var_random": 0.04910206,
+      "var_residual": 0.16861305
+    }
+  },
+  "fr": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.Mixed]": 0.0138934109219788,
+        "C(ethnicity)[T.Other]": 0.09854773728666151,
+        "C(ethnicity)[T.White]": -0.0372552700641939,
+        "C(gender)[T.Male]": -0.028445759236469397,
+        "C(nationality)[T.France]": -0.12355497072416868,
+        "Group Var": NaN,
+        "Intercept": 0.39933862599234055,
+        "age_centered": 0.0020064300107477343
+      },
+      "se": {
+        "C(ethnicity)[T.Mixed]": 0.03089682421188587,
+        "C(ethnicity)[T.Other]": 0.03617626411861741,
+        "C(ethnicity)[T.White]": 0.02028253104688718,
+        "C(gender)[T.Male]": 0.012957681582481713,
+        "C(nationality)[T.France]": 0.012858246810097921,
+        "Group Var": NaN,
+        "Intercept": 0.021332975992549474,
+        "age_centered": 0.0006187202761509557
+      },
+      "z": {
+        "C(ethnicity)[T.Mixed]": 0.44967116447631755,
+        "C(ethnicity)[T.Other]": 2.7240993421414634,
+        "C(ethnicity)[T.White]": -1.8368156310507202,
+        "C(gender)[T.Male]": -2.195281544418175,
+        "C(nationality)[T.France]": -9.609005998169026,
+        "Group Var": NaN,
+        "Intercept": 18.71931164839867,
+        "age_centered": 3.242870951683834
+      },
+      "p": {
+        "C(ethnicity)[T.Mixed]": 0.6529475662605928,
+        "C(ethnicity)[T.Other]": 0.006447710906691366,
+        "C(ethnicity)[T.White]": 0.06623711757566657,
+        "C(gender)[T.Male]": 0.02814340794440602,
+        "C(nationality)[T.France]": 7.325270543906131e-22,
+        "Group Var": NaN,
+        "Intercept": 3.4457521352242805e-78,
+        "age_centered": 0.0011833179518519774
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.02294534,
+      "r2_conditional": 0.32899231,
+      "r2_marginal_logistic": 0.00143253,
+      "r2_conditional_logistic": 0.02053975,
+      "var_fixed": 0.00481167,
+      "var_random": 0.06417845,
+      "var_residual": 0.14071119
+    }
+  },
+  "hi": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.Other]": 0.07188633176252376,
+        "C(gender)[T.Male]": -0.09369543255533501,
+        "Group Var": NaN,
+        "Intercept": 0.39391065966377686,
+        "age_centered": 0.0064789926270072675
+      },
+      "se": {
+        "C(ethnicity)[T.Other]": 0.02496855152505976,
+        "C(gender)[T.Male]": 0.013890003928326018,
+        "Group Var": NaN,
+        "Intercept": 0.012152796744738476,
+        "age_centered": 0.000917399466325546
+      },
+      "z": {
+        "C(ethnicity)[T.Other]": 2.8790749711842447,
+        "C(gender)[T.Male]": -6.745529593714586,
+        "Group Var": NaN,
+        "Intercept": 32.41316940763611,
+        "age_centered": 7.062346191411614
+      },
+      "p": {
+        "C(ethnicity)[T.Other]": 0.003988435071235003,
+        "C(gender)[T.Male]": 1.5246985358928706e-11,
+        "Group Var": NaN,
+        "Intercept": 1.7904914551302428e-230,
+        "age_centered": 1.6371448721790766e-12
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.02486677,
+      "r2_conditional": 0.15219479,
+      "r2_marginal_logistic": 0.00170129,
+      "r2_conditional_logistic": 0.01041256,
+      "var_fixed": 0.0056559,
+      "var_random": 0.0289605,
+      "var_residual": 0.19283155
+    }
+  },
+  "it": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.White]": 0.05756132788394782,
+        "C(gender)[T.Male]": 0.05079704871512324,
+        "Group Var": NaN,
+        "Intercept": 0.23760413892935592,
+        "age_centered": 0.00029198362197087937
+      },
+      "se": {
+        "C(ethnicity)[T.White]": 0.030532313291585872,
+        "C(gender)[T.Male]": 0.012097440868285474,
+        "Group Var": NaN,
+        "Intercept": 0.03365870683046709,
+        "age_centered": 0.0007945473233026059
+      },
+      "z": {
+        "C(ethnicity)[T.White]": 1.885259309841113,
+        "C(gender)[T.Male]": 4.198991279907163,
+        "Group Var": NaN,
+        "Intercept": 7.059217697403696,
+        "age_centered": 0.36748424342709224
+      },
+      "p": {
+        "C(ethnicity)[T.White]": 0.05939483686007464,
+        "C(gender)[T.Male]": 2.6810664378466534e-05,
+        "Group Var": NaN,
+        "Intercept": 1.6744257521747882e-12,
+        "age_centered": 0.7132578428691221
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.00314379,
+      "r2_conditional": 0.35512716,
+      "r2_marginal_logistic": 0.00020347,
+      "r2_conditional_logistic": 0.02298474,
+      "var_fixed": 0.00068515,
+      "var_random": 0.07671054,
+      "var_residual": 0.14054229
+    }
+  },
+  "nl": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.Other]": 0.08447684935676772,
+        "C(ethnicity)[T.White]": -0.10235721020067969,
+        "C(gender)[T.Male]": -0.08752379933959786,
+        "Group Var": NaN,
+        "Intercept": 0.3973804079484041,
+        "age_centered": -0.0008300113679379405
+      },
+      "se": {
+        "C(ethnicity)[T.Other]": 0.03576485291736816,
+        "C(ethnicity)[T.White]": 0.02112415421837164,
+        "C(gender)[T.Male]": 0.012001169399074887,
+        "Group Var": NaN,
+        "Intercept": 0.02238713891182747,
+        "age_centered": 0.0006496421618101541
+      },
+      "z": {
+        "C(ethnicity)[T.Other]": 2.362007458885536,
+        "C(ethnicity)[T.White]": -4.845505724989444,
+        "C(gender)[T.Male]": -7.2929392485989455,
+        "Group Var": NaN,
+        "Intercept": 17.75038827040386,
+        "age_centered": -1.2776439349706123
+      },
+      "p": {
+        "C(ethnicity)[T.Other]": 0.01817627649371801,
+        "C(ethnicity)[T.White]": 1.2628956987651868e-06,
+        "C(gender)[T.Male]": 3.0326486406912733e-13,
+        "Group Var": NaN,
+        "Intercept": 1.7116654685071446e-70,
+        "age_centered": 0.20137500181434487
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.02348224,
+      "r2_conditional": 0.31600312,
+      "r2_marginal_logistic": 0.00137852,
+      "r2_conditional_logistic": 0.01855088,
+      "var_fixed": 0.00462087,
+      "var_random": 0.05756265,
+      "var_residual": 0.13459783
+    }
+  },
+  "pt": {
+    "coefficients": {
+      "coef": {
+        "C(ethnicity)[T.Other]": 0.1426873897425695,
+        "C(ethnicity)[T.White]": 0.07866286310843414,
+        "C(gender)[T.Male]": 0.06550810507388076,
+        "C(nationality)[T.Portugal]": 0.025850767200267213,
+        "Group Var": NaN,
+        "Intercept": 0.26330196706929115,
+        "age_centered": -0.00021271746623580714
+      },
+      "se": {
+        "C(ethnicity)[T.Other]": 0.036503642774910715,
+        "C(ethnicity)[T.White]": 0.02027392015765212,
+        "C(gender)[T.Male]": 0.01504862805392202,
+        "C(nationality)[T.Portugal]": 0.016743458617428403,
+        "Group Var": NaN,
+        "Intercept": 0.019773687096822434,
+        "age_centered": 0.0012846774361821394
+      },
+      "z": {
+        "C(ethnicity)[T.Other]": 3.9088534429950057,
+        "C(ethnicity)[T.White]": 3.880002609102901,
+        "C(gender)[T.Male]": 4.353094836230459,
+        "C(nationality)[T.Portugal]": 1.5439323374538005,
+        "Group Var": NaN,
+        "Intercept": 13.315774937674771,
+        "age_centered": -0.165580448636173
+      },
+      "p": {
+        "C(ethnicity)[T.Other]": 9.273519815147668e-05,
+        "C(ethnicity)[T.White]": 0.00010445534431451271,
+        "C(gender)[T.Male]": 1.3422904895599175e-05,
+        "C(nationality)[T.Portugal]": 0.12260472515005952,
+        "Group Var": NaN,
+        "Intercept": 1.8741765724386114e-40,
+        "age_centered": 0.8684871346097739
+      }
+    },
+    "r2": {
+      "r2_marginal": 0.01005966,
+      "r2_conditional": 0.23659756,
+      "r2_marginal_logistic": 0.00070834,
+      "r2_conditional_logistic": 0.0166597,
+      "var_fixed": 0.00236982,
+      "var_random": 0.05336694,
+      "var_residual": 0.17983947
+    }
+  }
+}

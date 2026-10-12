@@ -1,0 +1,46 @@
+model,language,condition,is_best,n_rows,cols,rank,n_dropped_cols,n_coefs,n_agree,sign_agreement,max_abs_human,max_abs_llm,dropped_cols
+gpt-4.1-mini,ar,p0,False,700,20,20,0,19,13,0.6842105263157895,0.21290167248577643,0.04163786629003025,
+gpt-4.1-mini,ar,p1,False,700,20,20,0,19,13,0.6842105263157895,0.21290167248577643,0.20030632100115228,
+gpt-4.1-mini,ar,p2,True,514,44,35,9,26,22,0.8461538461538461,6.7063859846027345,0.9805193805846433,C(country_birth)[T.Egypt]; C(country_birth)[T.Israel]; C(country_birth)[T.Jordan]; C(country_birth)[T.Morocco]; C(country_birth)[T.Somalia]; C(country_birth)[T.Syrian Arab Republic]; C(country_birth)[T.Yemen]; C(country_residence)[T.Israel]; C(country_residence)[T.Italy]
+gpt-4.1-mini,ar,p3,False,700,16,16,0,15,11,0.7333333333333333,0.2401158731394277,0.29488623588945295,
+gpt-4.1-mini,de,p0,False,700,7,7,0,5,2,0.4,0.12854169850548688,0.07537260874736529,
+gpt-4.1-mini,de,p1,False,700,7,7,0,5,0,0.0,0.12854169850548688,0.051870782098929716,
+gpt-4.1-mini,de,p2,False,453,16,13,3,11,6,0.5454545454545454,0.19771106217654238,0.1067405804782784,C(country_birth)[T.Switzerland]; C(country_residence)[T.Germany]; C(country_residence)[T.Switzerland]
+gpt-4.1-mini,de,p3,True,466,8,8,0,7,2,0.2857142857142857,0.14687978647561184,0.15820502204572162,
+gpt-4.1-mini,en,p0,False,700,10,10,0,9,6,0.6666666666666666,0.16667491555260555,0.12977595796376168,
+gpt-4.1-mini,en,p1,False,700,10,10,0,9,9,1.0,0.16667491555260555,0.165621207678234,
+gpt-4.1-mini,en,p2,True,485,28,22,6,16,4,0.25,0.2854330466878342,0.2890722462243221,"C(country_birth)[T.United States]; C(country_residence)[T.Ireland]; C(country_residence)[T.South Africa]; C(country_residence)[T.United States]; C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]; C(employment_status)[T.Other]"
+gpt-4.1-mini,en,p3,False,700,14,13,1,8,7,0.875,0.29224621041322896,0.2525528940837234,C(country_residence)[T.Ireland]
+gpt-4.1-mini,es,p0,False,700,10,10,0,9,3,0.3333333333333333,0.4631859894596529,0.13970193713605783,
+gpt-4.1-mini,es,p1,False,700,10,10,0,9,4,0.4444444444444444,0.4631859894596529,0.07864952482233414,
+gpt-4.1-mini,es,p2,True,520,31,28,3,20,10,0.5,0.46897918996372867,0.5794222185832759,C(country_birth)[T.Colombia]; C(country_birth)[T.Spain]; C(country_residence)[T.Mexico]
+gpt-4.1-mini,es,p3,False,700,19,19,0,11,6,0.5454545454545454,0.33185323630121466,0.21392439887458,
+gpt-4.1-mini,fr,p0,False,700,7,7,0,6,4,0.6666666666666666,0.07710104195136282,0.07563635221577641,
+gpt-4.1-mini,fr,p1,False,700,7,7,0,6,3,0.5,0.07710104195136282,0.09923165389105744,
+gpt-4.1-mini,fr,p2,True,625,18,16,2,15,6,0.4,0.4933745683297939,0.3578427589149096,C(country_birth)[T.Martinique]; C(country_residence)[T.France]
+gpt-4.1-mini,fr,p3,False,700,7,6,1,5,3,0.6,0.08839869478310254,0.08803343459598212,C(country_residence)[T.France]
+gpt-4.1-mini,hi,p0,False,700,4,4,0,3,2,0.6666666666666666,0.12298972321323472,0.01490702124696333,
+gpt-4.1-mini,hi,p1,False,700,4,4,0,3,1,0.3333333333333333,0.12298972321323472,0.046579274264778515,
+gpt-4.1-mini,hi,p2,True,554,14,13,1,12,6,0.5,0.7662306643808018,0.14136072494850158,C(employment_status)[T.Unemployed (and job seeking)]
+gpt-4.1-mini,hi,p3,False,700,3,3,0,2,1,0.5,0.12931945791876956,0.02697837933948433,
+gpt-4.1-mini,it,p0,False,700,4,4,0,3,3,1.0,0.03415151310118502,0.10300460050665787,
+gpt-4.1-mini,it,p1,False,700,4,4,0,3,1,0.3333333333333333,0.03415151310118502,0.018671238139345975,
+gpt-4.1-mini,it,p2,False,664,10,10,0,9,4,0.4444444444444444,0.25560033333448134,0.12841903591926848,
+gpt-4.1-mini,it,p3,True,664,6,6,0,5,2,0.4,0.2007219677765877,0.13669359020750627,
+gpt-4.1-mini,nl,p0,False,700,5,5,0,4,2,0.5,0.1678718663201546,0.028249209162182803,
+gpt-4.1-mini,nl,p1,False,700,5,5,0,4,2,0.5,0.1678718663201546,0.08346130647662821,
+gpt-4.1-mini,nl,p2,True,560,8,8,0,7,6,0.8571428571428571,0.16048505779555852,0.08784439882691993,
+gpt-4.1-mini,nl,p3,False,560,4,4,0,3,1,0.3333333333333333,0.10909687251315994,0.03940728917747905,
+gpt-4.1-mini,pt,p0,False,700,6,6,0,5,4,0.8,0.049791934724001556,0.020712911429400738,
+gpt-4.1-mini,pt,p1,True,700,6,6,0,5,3,0.6,0.049791934724001556,0.24419278138299425,
+gpt-4.1-mini,pt,p2,False,643,16,15,1,14,9,0.6428571428571429,0.24638909062908518,0.27226563173429924,C(country_birth)[T.Portugal]
+gpt-4.1-mini,pt,p3,False,664,6,6,0,5,4,0.8,0.04920347516505437,0.09138026484656553,
+opus5,ar,p2,True,514,44,35,9,26,25,0.9615384615384616,6.70638598464923,4.123267385011539,C(country_birth)[T.Egypt]; C(country_birth)[T.Israel]; C(country_birth)[T.Jordan]; C(country_birth)[T.Morocco]; C(country_birth)[T.Somalia]; C(country_birth)[T.Syrian Arab Republic]; C(country_birth)[T.Yemen]; C(country_residence)[T.Israel]; C(country_residence)[T.Italy]
+opus5,de,p3,True,466,8,8,0,7,2,0.2857142857142857,0.14687978647561198,0.1190945964075247,
+opus5,en,p2,True,485,28,22,6,16,8,0.5,0.285433046687825,0.8738628479510155,"C(country_birth)[T.United States]; C(country_residence)[T.Ireland]; C(country_residence)[T.South Africa]; C(country_residence)[T.United States]; C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]; C(employment_status)[T.Other]"
+opus5,es,p2,True,520,31,28,3,20,13,0.65,0.4689791899632181,0.35104951288627245,C(country_birth)[T.Colombia]; C(country_birth)[T.Spain]; C(country_residence)[T.Mexico]
+opus5,fr,p2,True,625,18,16,2,15,10,0.6666666666666666,0.4933745683297929,0.5418543535369691,C(country_birth)[T.Martinique]; C(country_residence)[T.France]
+opus5,hi,p2,True,554,14,13,1,12,7,0.5833333333333334,0.7662306643807852,0.229946596417549,C(employment_status)[T.Unemployed (and job seeking)]
+opus5,it,p3,True,664,6,6,0,5,3,0.6,0.20072196777658707,0.17752104472205035,
+opus5,nl,p2,True,560,8,8,0,7,6,0.8571428571428571,0.16048505779555677,0.08390209612985547,
+opus5,pt,p1,True,700,6,6,0,5,2,0.4,0.04979193472400119,0.15099116435356003,

@@ -1,0 +1,107 @@
+{
+  "ar": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 62,
+    "n_texts": 2038,
+    "n_rows": 9688,
+    "irony_rate": 0.319364161849711
+  },
+  "de": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 67,
+    "n_texts": 2137,
+    "n_rows": 11969,
+    "irony_rate": 0.31999331606650516
+  },
+  "en": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 70,
+    "n_texts": 2668,
+    "n_rows": 13374,
+    "irony_rate": 0.31067743382682816
+  },
+  "es": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 119,
+    "n_texts": 4308,
+    "n_rows": 23441,
+    "irony_rate": 0.32720447079902737
+  },
+  "fr": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 49,
+    "n_texts": 1559,
+    "n_rows": 8593,
+    "irony_rate": 0.295473059467008
+  },
+  "hi": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)"
+    ],
+    "n_annotators": 24,
+    "n_texts": 667,
+    "n_rows": 4711,
+    "irony_rate": 0.34833368711526214
+  },
+  "it": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)"
+    ],
+    "n_annotators": 24,
+    "n_texts": 882,
+    "n_rows": 4790,
+    "irony_rate": 0.31336116910229644
+  },
+  "nl": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)"
+    ],
+    "n_annotators": 25,
+    "n_texts": 946,
+    "n_rows": 4991,
+    "irony_rate": 0.2666800240432779
+  },
+  "pt": {
+    "usable_vars": [
+      "age_centered",
+      "C(gender)",
+      "C(ethnicity)",
+      "C(nationality)"
+    ],
+    "n_annotators": 49,
+    "n_texts": 1757,
+    "n_rows": 9754,
+    "irony_rate": 0.3763584170596678
+  }
+}

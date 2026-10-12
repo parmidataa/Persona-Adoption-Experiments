@@ -1,0 +1,318 @@
+language,condition,coef,support,human,llm,same_sign
+ar,p0,C(gender)[T.Male],471,-0.0354851217262319,0.0130795343957024,False
+ar,p0,C(ethnicity)[T.Mixed],129,-0.1671412353383103,-0.0348804555181572,True
+ar,p0,C(ethnicity)[T.Other],354,-0.1943830493001211,-0.0416378662900302,True
+ar,p0,C(ethnicity)[T.White],188,-0.167340477990032,-0.0280118379577613,True
+ar,p0,C(nationality)[T.Canada],28,0.0465434697626045,-0.0101880428355761,False
+ar,p0,C(nationality)[T.Egypt],113,-0.1119475722139832,-0.0341241087565629,True
+ar,p0,C(nationality)[T.Germany],16,0.0285122862030443,-0.0026494253621437,False
+ar,p0,C(nationality)[T.Israel],28,0.1115501332068249,-0.0227297058718649,False
+ar,p0,C(nationality)[T.Jordan],28,-0.0592953263751042,-0.0010900583028647,True
+ar,p0,C(nationality)[T.Lebanon],72,0.047050255281738,-0.0172653884854558,False
+ar,p0,C(nationality)[T.Morocco],43,-0.0170715813942396,-0.0072177964891918,True
+ar,p0,C(nationality)[T.Netherlands],29,-0.2129016724857764,0.0311009466117014,False
+ar,p0,C(nationality)[T.Other_nat],71,-0.1527304304899476,-0.017598327246672,True
+ar,p0,C(nationality)[T.Palestinian Territory],57,-0.0290640477378933,-0.0160127512535762,True
+ar,p0,C(nationality)[T.Saudi Arabia],44,-0.1484297564717172,-0.0232950366255971,True
+ar,p0,C(nationality)[T.Syrian Arab Republic],71,-0.0610695702222321,-0.0179267800751048,True
+ar,p0,C(nationality)[T.United Kingdom],43,-0.1739386823404345,-0.0093995120567567,True
+ar,p0,C(nationality)[T.United States],29,-0.1306198511735756,-0.0409597086546975,True
+ar,p0,age_centered,700,0.0042960952783998,0.0009203035938841,True
+ar,p1,C(gender)[T.Male],471,-0.0354851217262319,-0.0015386131093735,True
+ar,p1,C(ethnicity)[T.Mixed],129,-0.1671412353383103,0.0105821817820247,False
+ar,p1,C(ethnicity)[T.Other],354,-0.1943830493001211,-0.0380978455612673,True
+ar,p1,C(ethnicity)[T.White],188,-0.167340477990032,-0.1139807567491595,True
+ar,p1,C(nationality)[T.Canada],28,0.0465434697626045,-0.022647628717907,False
+ar,p1,C(nationality)[T.Egypt],113,-0.1119475722139832,-0.0008294470839547,True
+ar,p1,C(nationality)[T.Germany],16,0.0285122862030443,0.0824008525424792,True
+ar,p1,C(nationality)[T.Israel],28,0.1115501332068249,-0.1580765199231205,False
+ar,p1,C(nationality)[T.Jordan],28,-0.0592953263751042,-0.058603794592357,True
+ar,p1,C(nationality)[T.Lebanon],72,0.047050255281738,-0.0377233676326873,False
+ar,p1,C(nationality)[T.Morocco],43,-0.0170715813942396,-0.0516454689629037,True
+ar,p1,C(nationality)[T.Netherlands],29,-0.2129016724857764,-0.0417373360520708,True
+ar,p1,C(nationality)[T.Other_nat],71,-0.1527304304899476,-0.1278661601989562,True
+ar,p1,C(nationality)[T.Palestinian Territory],57,-0.0290640477378933,0.0244028939444707,False
+ar,p1,C(nationality)[T.Saudi Arabia],44,-0.1484297564717172,-0.070537314288111,True
+ar,p1,C(nationality)[T.Syrian Arab Republic],71,-0.0610695702222321,0.0607720058137499,False
+ar,p1,C(nationality)[T.United Kingdom],43,-0.1739386823404345,-0.2003063210011522,True
+ar,p1,C(nationality)[T.United States],29,-0.1306198511735756,-0.1808149228370043,True
+ar,p1,age_centered,700,0.0042960952783998,0.0023183094104286,True
+ar,p2,C(gender)[T.Male],356,-0.5699239655424014,-0.1737257298903944,True
+ar,p2,C(ethnicity)[T.Mixed],100,4.319568739695563,0.4463514440788851,True
+ar,p2,C(ethnicity)[T.Other],269,3.5792807010460357,0.2735581527411798,True
+ar,p2,C(ethnicity)[T.White],130,4.637737868138761,0.3653266434485175,True
+ar,p2,C(nationality)[T.Canada],28,1.3086005153533504,0.7193671668754922,True
+ar,p2,C(nationality)[T.Egypt],113,-18.23460784163476,2.9916805565677618,False
+ar,p2,C(nationality)[T.Lebanon],72,-0.6499199878397461,0.4576769799901503,False
+ar,p2,C(nationality)[T.Morocco],43,-10.190624192943613,1.707099176546124,False
+ar,p2,C(nationality)[T.Other_nat],28,-11.134516263068944,-2.046727768202673,True
+ar,p2,C(nationality)[T.Palestinian Territory],29,-0.6580490396078741,-0.5501995365587556,True
+ar,p2,C(nationality)[T.Saudi Arabia],44,-5.909385971460004,3.022760851446082,False
+ar,p2,C(nationality)[T.Syrian Arab Republic],71,-2.9838784393936337,-1.1032527098700096,True
+ar,p2,C(nationality)[T.United Kingdom],29,-3.1558138739986563,-1.15615098498472,True
+ar,p2,C(nationality)[T.United States],15,-19.088048274708907,2.779468154250463,False
+ar,p2,C(country_birth)[T.Egypt],128,13.65555898254812,-3.759987657800433,False
+ar,p2,C(country_birth)[T.Lebanon],72,-2.0950978836573815,-0.7476017258312956,True
+ar,p2,C(country_birth)[T.Morocco],43,8.58382282942647,-1.6238211827860811,False
+ar,p2,C(country_birth)[T.Saudi Arabia],58,0.0191486480926478,-3.997972831641377,False
+ar,p2,C(country_birth)[T.Somalia],15,1.6409851906432902,0.2551708667900311,True
+ar,p2,C(country_birth)[T.Syrian Arab Republic],86,-1.4224137931034482,0.5189393939393939,False
+ar,p2,C(country_residence)[T.France],44,1.1640306298811764,0.3584647535511007,True
+ar,p2,C(country_residence)[T.Germany],99,2.069969285951015,0.5901669452055827,True
+ar,p2,C(country_residence)[T.Italy],28,0.7969482653342367,3.7523892661477047,True
+ar,p2,C(country_residence)[T.United Kingdom],187,3.9576284485500457,0.9802055226962016,True
+ar,p2,C(country_residence)[T.United States],58,3.149064238666983,0.870072501973648,True
+ar,p2,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",15,0.6810679406805523,-0.0535936644177225,False
+ar,p2,C(employment_status)[T.Other],56,-0.2586122700562516,-0.0919243738311575,True
+ar,p2,C(employment_status)[T.Part-Time],115,-1.2351247046809193,-0.4442667873683741,True
+ar,p2,C(employment_status)[T.Unemployed (and job seeking)],114,-1.8032664674989256,-0.319529087731582,True
+ar,p2,C(student_status)[T.Yes],286,-0.8703131231415684,-0.1127663139162991,True
+ar,p2,age_centered,514,-0.0671188620202491,-0.0073820506602405,True
+ar,p3,C(nationality)[T.Canada],28,0.0486270784586536,-0.1939566872121541,False
+ar,p3,C(nationality)[T.Egypt],113,-0.1374215780845247,-0.0835015829985232,True
+ar,p3,C(nationality)[T.Germany],16,-0.0032377319769752,-0.193705449961439,True
+ar,p3,C(nationality)[T.Israel],28,0.085429676376644,-0.1006353236506008,False
+ar,p3,C(nationality)[T.Jordan],28,-0.0899157328270358,0.0019102426773295,False
+ar,p3,C(nationality)[T.Lebanon],72,0.0267923589709947,-0.0536134974239291,False
+ar,p3,C(nationality)[T.Morocco],43,-0.0518100968837981,-0.0175892652498293,True
+ar,p3,C(nationality)[T.Netherlands],29,-0.2401158731394277,-0.1212726224675678,True
+ar,p3,C(nationality)[T.Other_nat],71,-0.1749428603296774,-0.0875815932588871,True
+ar,p3,C(nationality)[T.Palestinian Territory],57,-0.0491821602717208,-0.1211506399867061,True
+ar,p3,C(nationality)[T.Saudi Arabia],44,-0.1483410385622551,-0.1511229049798762,True
+ar,p3,C(nationality)[T.Syrian Arab Republic],71,-0.092818972395032,-0.0517349558180263,True
+ar,p3,C(nationality)[T.United Kingdom],43,-0.075264843017531,-0.2948862358894529,True
+ar,p3,C(nationality)[T.United States],29,-0.1322345305910841,-0.2597928598618386,True
+ar,p3,age_centered,700,0.0026221445975514,0.0033744124409463,True
+de,p0,C(gender)[T.Male],342,0.0082814128837234,-0.025731047243244,False
+de,p0,C(ethnicity)[T.White],660,0.1285416985054868,-0.0019737553371934,False
+de,p0,C(nationality)[T.Germany],212,-0.0618727686479415,-0.0046597920508667,True
+de,p0,C(nationality)[T.Switzerland],223,0.0062540027980286,-0.0753726087473652,False
+de,p0,age_centered,700,0.002254317135039,0.0010881270343839,True
+de,p1,C(gender)[T.Male],342,0.0082814128837234,-0.0119726563279775,False
+de,p1,C(ethnicity)[T.White],660,0.1285416985054868,-0.0094348980846448,False
+de,p1,C(nationality)[T.Germany],212,-0.0618727686479415,0.0134258977468719,False
+de,p1,C(nationality)[T.Switzerland],223,0.0062540027980286,-0.0518707820989297,False
+de,p1,age_centered,700,0.002254317135039,-0.0003973215001435,False
+de,p2,C(gender)[T.Male],225,0.0784208492556763,-0.0007712037560461,False
+de,p2,C(ethnicity)[T.White],426,0.0615537447219903,0.0194584455962409,True
+de,p2,C(nationality)[T.Germany],147,0.7781787068330942,0.8706401105391249,True
+de,p2,C(nationality)[T.Switzerland],106,3.4719156089209164,0.8102558884029462,True
+de,p2,C(country_birth)[T.Germany],160,0.0694173034781293,-0.3765800515777898,False
+de,p2,C(country_birth)[T.Switzerland],93,0.0087209302325581,-0.4162754369042692,False
+de,p2,C(country_residence)[T.Germany],147,-0.735751292805929,-0.5611011039078893,True
+de,p2,C(country_residence)[T.Switzerland],106,-3.384228339996776,-0.4786780977404137,True
+de,p2,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",52,0.0167667931551768,0.0713399834764577,True
+de,p2,C(employment_status)[T.Other],26,0.1919470617042378,0.012225989938872,True
+de,p2,C(employment_status)[T.Part-Time],80,0.0129184418054781,0.0675644087221994,True
+de,p2,C(employment_status)[T.Unemployed (and job seeking)],27,-0.1977110621765429,0.0110730938955445,False
+de,p2,C(student_status)[T.Yes],120,-0.027589683576326,-0.0300301572785908,True
+de,p2,age_centered,453,-0.0029654985337786,0.0024800748149562,False
+de,p3,C(Generation)[T.GenX],26,-0.0979340914132093,-0.1582050220457216,True
+de,p3,C(Generation)[T.GenY],241,-0.0688586037780404,0.0143093249327406,False
+de,p3,C(Generation)[T.GenZ],159,-0.0666788093629671,-0.040296756833322,True
+de,p3,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",52,-0.0136974352489317,0.0257211597515432,False
+de,p3,C(employment_status)[T.Other],26,0.1305875714947001,-0.0505901787356913,False
+de,p3,C(employment_status)[T.Part-Time],80,-0.0259928946676832,0.0615181266610907,False
+de,p3,C(employment_status)[T.Unemployed (and job seeking)],40,-0.1468797864756118,0.0079087433279246,False
+en,p0,C(gender)[T.Male],345,0.1147815423820243,-0.0008237917633069,False
+en,p0,C(ethnicity)[T.Black],38,-0.128811156374636,-0.060185149027242,True
+en,p0,C(ethnicity)[T.Other],37,-0.1666749155526055,-0.0681685725100137,True
+en,p0,C(ethnicity)[T.White],453,-0.0993811992896424,0.0088589187372052,False
+en,p0,C(nationality)[T.India],135,-0.0893560627093824,-0.0901839365626908,True
+en,p0,C(nationality)[T.Ireland],101,-0.0877777737541133,-0.1297759579637616,True
+en,p0,C(nationality)[T.United Kingdom],152,-0.0143356815928813,-0.0141536934277157,True
+en,p0,C(nationality)[T.United States],164,-0.0336904484497705,-0.0054308971499924,True
+en,p0,age_centered,700,0.0005474192637794,-1.2116759489988983e-06,False
+en,p1,C(gender)[T.Male],345,0.1147815423820243,0.0680621130970229,True
+en,p1,C(ethnicity)[T.Black],38,-0.128811156374636,-0.165621207678234,True
+en,p1,C(ethnicity)[T.Other],37,-0.1666749155526055,-0.0485185382703378,True
+en,p1,C(ethnicity)[T.White],453,-0.0993811992896424,-0.0136714665675613,True
+en,p1,C(nationality)[T.India],135,-0.0893560627093824,-0.0322299670890646,True
+en,p1,C(nationality)[T.Ireland],101,-0.0877777737541133,-0.1051429946035322,True
+en,p1,C(nationality)[T.United Kingdom],152,-0.0143356815928813,-0.0523577159871375,True
+en,p1,C(nationality)[T.United States],164,-0.0336904484497705,-0.0164275974880185,True
+en,p1,age_centered,700,0.0005474192637794,0.0002250011364762,True
+en,p2,C(gender)[T.Male],257,0.1777114978231936,0.0916071626028577,True
+en,p2,C(ethnicity)[T.Black],38,-0.0456995025979902,-0.1863442498594116,True
+en,p2,C(ethnicity)[T.Other],25,-0.2487128250183779,0.1080263155717028,False
+en,p2,C(ethnicity)[T.White],301,-0.2328590119104391,0.0403781979271908,False
+en,p2,C(nationality)[T.India],97,-0.2522649138041628,0.171430966060602,False
+en,p2,C(nationality)[T.Ireland],64,0.394124124402662,0.7678585089985211,True
+en,p2,C(nationality)[T.United Kingdom],126,0.8012913382949227,4.986613341494379,True
+en,p2,C(nationality)[T.United States],87,-0.2748120529535283,0.1455888789192081,False
+en,p2,C(country_birth)[T.India],48,0.5404751162929224,3.2275073798497713,True
+en,p2,C(country_birth)[T.Ireland],76,-0.1997224012524525,0.0375266167232001,False
+en,p2,C(country_birth)[T.United Kingdom],139,-0.2761727624386978,-1.6665490886942684,True
+en,p2,C(country_birth)[T.United States],98,0.1166917896717024,0.312869034150636,True
+en,p2,C(country_residence)[T.Ireland],64,-0.1678693257187163,-0.96429548663163,True
+en,p2,C(country_residence)[T.United Kingdom],138,-0.3943543856091196,-3.41933246528263,True
+en,p2,C(country_residence)[T.United States],124,0.0758755544728032,-0.4462885541888935,False
+en,p2,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",36,-0.3223892712018971,-3.627182764063515,True
+en,p2,C(employment_status)[T.Part-Time],105,0.1566211729726132,-0.0414459965937943,False
+en,p2,C(employment_status)[T.Unemployed (and job seeking)],123,-0.0285498764757993,-0.1067416839814954,True
+en,p2,C(student_status)[T.Yes],137,0.1565751937826794,-0.0783128996192126,False
+en,p2,age_centered,485,-0.000222532964045,4.382703252090301e-05,False
+en,p3,C(nationality)[T.India],135,-0.1210389030569745,-0.1744828946731307,True
+en,p3,C(nationality)[T.Ireland],101,-0.0554969352137328,-4022506310974.462,True
+en,p3,C(nationality)[T.United Kingdom],152,-0.3018250412606587,-0.1793329433933559,True
+en,p3,C(nationality)[T.United States],164,-0.2632841191745121,-0.2524114511270604,True
+en,p3,C(gender)[T.Male],345,0.1487814304191533,-0.0080305728004542,False
+en,p3,C(country_residence)[T.Canada],15,0.2945168011388698,0.1028506692432062,True
+en,p3,C(country_residence)[T.Ireland],101,-0.0519308582971669,4022506310974.36,False
+en,p3,C(country_residence)[T.United Kingdom],173,0.2548464649149735,0.1379596928465229,True
+en,p3,C(country_residence)[T.United States],201,0.2003576603142874,0.1486720121923741,True
+es,p0,C(gender)[T.Male],376,0.0007007400032128,-0.0066468659744212,False
+es,p0,C(ethnicity)[T.Mixed],170,-0.3766561323183122,0.1387250533620404,False
+es,p0,C(ethnicity)[T.Other],157,-0.4075604852750428,0.1308512950137043,False
+es,p0,C(ethnicity)[T.White],357,-0.4631859894596529,0.1397019371360578,False
+es,p0,C(nationality)[T.Colombia],126,-0.0398673073045652,0.0596268616675216,False
+es,p0,C(nationality)[T.Mexico],153,0.0259655566787101,0.0462955508874733,True
+es,p0,C(nationality)[T.Spain],147,0.0266326156398446,0.026633603693118,True
+es,p0,C(nationality)[T.United States],130,0.0915190087884439,0.0245338330458434,True
+es,p0,age_centered,700,0.0009333568911633,-0.0010117205909801,False
+es,p1,C(gender)[T.Male],376,0.0007007400032128,0.0675698681529545,True
+es,p1,C(ethnicity)[T.Mixed],170,-0.3766561323183122,0.0200387669609573,False
+es,p1,C(ethnicity)[T.Other],157,-0.4075604852750428,0.0786495248223341,False
+es,p1,C(ethnicity)[T.White],357,-0.4631859894596529,-0.0138478183480712,True
+es,p1,C(nationality)[T.Colombia],126,-0.0398673073045652,0.0446620259166573,False
+es,p1,C(nationality)[T.Mexico],153,0.0259655566787101,0.018402230553051,True
+es,p1,C(nationality)[T.Spain],147,0.0266326156398446,0.0625382106280905,True
+es,p1,C(nationality)[T.United States],130,0.0915190087884439,-0.0571989253986438,False
+es,p1,age_centered,700,0.0009333568911633,-0.0019547582791737,False
+es,p3,C(country_birth)[T.Colombia],143,-0.1557120270341267,-0.038062357796219,True
+es,p3,C(country_birth)[T.Mexico],168,-0.2744916370799108,0.0303136914888642,False
+es,p3,C(country_birth)[T.Spain],147,0.0875281958489952,0.0769157279524018,True
+es,p3,C(country_birth)[T.United States],79,0.026812253752147,-0.1019520363247918,False
+es,p3,C(country_residence)[T.Germany],24,0.1513762016922836,-0.0487209093386086,False
+es,p3,C(country_residence)[T.Hungary],15,-0.1063280991955704,-0.21392439887458,True
+es,p3,C(country_residence)[T.Mexico],162,0.1020339148991179,-0.0747137587917243,False
+es,p3,C(country_residence)[T.Spain],229,-0.3318532363012146,-0.0345833665880147,True
+es,p3,C(country_residence)[T.United Kingdom],37,-0.3179314816159137,0.0501153956608038,False
+es,p3,C(country_residence)[T.United States],190,-0.0736712740892962,-0.108338856005398,True
+es,p3,age_centered,700,0.0049515027652022,0.0003716999614306,True
+fr,p0,C(gender)[T.Male],344,-0.0248789308370669,0.0576914539377902,False
+fr,p0,C(ethnicity)[T.Mixed],54,0.0013009256518433,0.0756363522157764,True
+fr,p0,C(ethnicity)[T.Other],36,0.0764981282401393,0.005005339061198,True
+fr,p0,C(ethnicity)[T.White],538,-0.014225158072173,-0.0078535466338597,True
+fr,p0,C(nationality)[T.France],342,-0.0771010419513628,-0.0172894960773153,True
+fr,p0,age_centered,700,0.0017408174506285,-0.0011269084820147,False
+fr,p1,C(gender)[T.Male],344,-0.0248789308370669,0.0065801152404938,False
+fr,p1,C(ethnicity)[T.Mixed],54,0.0013009256518433,0.0348550772295055,True
+fr,p1,C(ethnicity)[T.Other],36,0.0764981282401393,-0.0992316538910574,False
+fr,p1,C(ethnicity)[T.White],538,-0.014225158072173,-0.0548729328865678,True
+fr,p1,C(nationality)[T.France],342,-0.0771010419513628,0.0692316137818551,False
+fr,p1,age_centered,700,0.0017408174506285,0.0009880351332146,True
+fr,p2,C(gender)[T.Male],324,0.0159960852728437,0.0325390684588923,True
+fr,p2,C(ethnicity)[T.Mixed],54,0.0598782868403498,-0.093356588611787,False
+fr,p2,C(ethnicity)[T.Other],36,0.0490201917514985,-0.1283777383845256,False
+fr,p2,C(ethnicity)[T.White],500,-0.0811518982731148,-0.2066749618439387,True
+fr,p2,C(nationality)[T.France],304,-0.6340548771375021,1.6182574911157133,False
+fr,p2,C(country_birth)[T.France],286,4.5751499337503825,-1.6670931768826118,False
+fr,p2,C(country_birth)[T.Lebanon],17,0.0334364360019701,-0.000938717010542,False
+fr,p2,C(country_birth)[T.Martinique],18,4.152970268487148,-1.7202007642252444,False
+fr,p2,C(country_birth)[T.Morocco],19,-0.0785951066420833,0.1780178816055922,False
+fr,p2,C(country_birth)[T.Togo],18,-0.0757845178633792,-0.357842758914958,True
+fr,p2,C(country_residence)[T.France],304,-4.012289959679442,0.0723832525047902,False
+fr,p2,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",71,-0.012121814001765,0.036926739223961,False
+fr,p2,C(employment_status)[T.Other],106,-0.093633979804793,0.0644329285806888,False
+fr,p2,C(employment_status)[T.Part-Time],54,-0.046887901867224,0.0434447375235343,False
+fr,p2,C(employment_status)[T.Unemployed (and job seeking)],35,-0.0247405792572865,0.0485272849832348,False
+fr,p2,C(student_status)[T.Yes],214,-0.0111819386364041,-0.0539048052831846,True
+fr,p2,age_centered,625,0.0010355360926587,-0.0005321817975162,False
+hi,p0,C(gender)[T.Male],369,-0.0100835000224733,0.0149070212469633,False
+hi,p0,C(ethnicity)[T.Other],76,0.1229897232132347,0.0025880642878275,True
+hi,p0,age_centered,700,0.0043288739699346,0.0002810177013394,True
+hi,p1,C(gender)[T.Male],369,-0.0100835000224733,0.0465792742647785,False
+hi,p1,C(ethnicity)[T.Other],76,0.1229897232132347,-0.0190580281402824,False
+hi,p1,age_centered,700,0.0043288739699346,0.0008572550885787,True
+hi,p2,C(gender)[T.Male],296,0.6598208046985375,0.1413607249485015,True
+hi,p2,C(ethnicity)[T.Other],76,0.4150528022890464,0.0678411201867549,True
+hi,p2,C(country_residence)[T.Germany],148,-0.5853544730994953,-0.1002196202026836,True
+hi,p2,C(country_residence)[T.Ireland],72,-0.5521960008330875,-0.0697549696001833,True
+hi,p2,C(country_residence)[T.Netherlands],79,-0.6786820526011423,-0.0844683029565762,True
+hi,p2,C(country_residence)[T.South Africa],74,-0.0380598749132963,0.0432988803870954,False
+hi,p2,C(country_residence)[T.United Kingdom],72,0.0687753951545575,0.2725062169067015,True
+hi,p2,C(employment_status)[T.Full-Time],334,0.0425137290575781,-0.0449528437979131,False
+hi,p2,C(employment_status)[T.Other],36,-0.7167448112508109,-0.3678500147435688,True
+hi,p2,C(employment_status)[T.Part-Time],112,0.2913249371597446,-0.046482075914683,False
+hi,p2,C(employment_status)[T.Unemployed (and job seeking)],36,0.0494858531300047,-0.2773690849534853,False
+hi,p2,C(student_status)[T.Yes],219,0.0225529586521656,-0.1155100517612064,False
+hi,p2,age_centered,554,0.0120818923756143,-0.0033659149733992,False
+hi,p3,C(ethnicity)[T.Other],76,0.1293194579187695,-0.0269783793394843,False
+hi,p3,age_centered,700,0.0044346185823477,0.0004584819631789,True
+it,p0,C(gender)[T.Male],330,0.034151513101185,0.0133874198474966,True
+it,p0,C(ethnicity)[T.White],664,0.0199789431522612,0.1030046005066578,True
+it,p0,age_centered,700,0.0039236483387937,0.0011213254946534,True
+it,p1,C(gender)[T.Male],330,0.034151513101185,-0.0186712381393459,False
+it,p1,C(ethnicity)[T.White],664,0.0199789431522612,-0.0064520630821116,False
+it,p1,age_centered,700,0.0039236483387937,0.0015629793582625,True
+it,p2,C(gender)[T.Male],330,-0.0124535304372095,-0.0461066503466133,True
+it,p2,C(ethnicity)[T.White],628,0.1325459093400991,-0.0497374344224139,False
+it,p2,C(country_birth)[T.Italy],626,0.0794865609066836,-0.0353732400393104,False
+it,p2,C(employment_status)[T.Full-Time],292,-0.0481643078970738,0.0583646358275333,False
+it,p2,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",38,-0.0911868119836792,0.1284190359192684,False
+it,p2,C(employment_status)[T.Part-Time],74,-0.1865567852924292,-0.0518186762163176,True
+it,p2,C(employment_status)[T.Unemployed (and job seeking)],222,0.0567075104000865,-0.0171147256082362,False
+it,p2,C(student_status)[T.Yes],259,0.2556003333344813,0.1263596864616464,True
+it,p2,age_centered,664,0.019010014686552,0.0091111486619725,True
+it,p3,C(employment_status)[T.Full-Time],292,0.0092441237971371,0.0550741280987486,True
+it,p3,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",38,-0.1363442855893325,0.1366935902075062,False
+it,p3,C(employment_status)[T.Part-Time],74,0.0314803473774196,0.0451295055843227,True
+it,p3,C(employment_status)[T.Unemployed (and job seeking)],222,0.2007219677765877,-0.0274904727077668,False
+it,p3,age_centered,664,0.0091185753402921,-0.0007637028101327,False
+nl,p0,C(gender)[T.Male],385,-0.0096885392322815,-0.0083441701321167,True
+nl,p0,C(ethnicity)[T.Other],35,0.101275627209957,-0.0282492091621828,False
+nl,p0,C(ethnicity)[T.White],595,-0.1678718663201546,-0.01266514097016,True
+nl,p0,age_centered,700,-0.0029948513050702,0.0003755611968576,False
+nl,p1,C(gender)[T.Male],385,-0.0096885392322815,0.0137524373471225,False
+nl,p1,C(ethnicity)[T.Other],35,0.101275627209957,0.0834613064766282,True
+nl,p1,C(ethnicity)[T.White],595,-0.1678718663201546,-0.0186842220383568,True
+nl,p1,age_centered,700,-0.0029948513050702,0.0005307498059497,False
+nl,p2,C(gender)[T.Male],280,0.0680579410927045,0.0585589582763232,True
+nl,p2,C(ethnicity)[T.White],490,-0.1604850577955585,-0.0203816183755244,True
+nl,p2,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",105,0.0920590973395437,0.0084196227461624,True
+nl,p2,C(employment_status)[T.Part-Time],70,-0.1000097930001927,-0.0878443988269199,True
+nl,p2,C(employment_status)[T.Unemployed (and job seeking)],140,0.1198584657922457,-0.0533151889983643,False
+nl,p2,C(student_status)[T.Yes],140,-0.0720026043709764,-0.0323071626147575,True
+nl,p2,age_centered,560,-0.0008022729822373,-0.0001223160145717,True
+nl,p3,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",105,0.0191542584760349,-0.0015450743528474,False
+nl,p3,C(employment_status)[T.Part-Time],70,-0.0826157117729902,0.039407289177479,False
+nl,p3,C(employment_status)[T.Unemployed (and job seeking)],140,0.1090968725131599,0.028212173066198,True
+pt,p0,C(gender)[T.Male],348,0.0295990159954684,0.0013022886934916,True
+pt,p0,C(ethnicity)[T.Other],35,-0.0497919347240015,-0.0207129114294007,True
+pt,p0,C(ethnicity)[T.White],518,0.0408191176427833,0.0023722658528958,True
+pt,p0,C(nationality)[T.Portugal],344,0.0164227342115151,0.0062333641513686,True
+pt,p0,age_centered,700,-0.0023986015876315,0.0002714463865179,False
+pt,p1,C(gender)[T.Male],348,0.0295990159954684,0.0804325887971581,True
+pt,p1,C(ethnicity)[T.Other],35,-0.0497919347240015,-0.2441927813829942,True
+pt,p1,C(ethnicity)[T.White],518,0.0408191176427833,-0.0179402982797673,False
+pt,p1,C(nationality)[T.Portugal],344,0.0164227342115151,0.0087193131978481,True
+pt,p1,age_centered,700,-0.0023986015876315,0.0024540840579815,False
+pt,p3,C(employment_status)[T.Full-Time],199,0.0407430067475904,0.013572872211215,True
+pt,p3,C(employment_status)[T.Other],216,0.0252332422517407,0.0370405035368785,True
+pt,p3,C(employment_status)[T.Part-Time],90,0.0404496015407094,0.0913802648465655,True
+pt,p3,C(employment_status)[T.Unemployed (and job seeking)],142,-0.0358442636161484,-0.0423187855111695,True
+pt,p3,C(country_birth)[T.Portugal],326,0.0492034751650543,-0.0145641792117051,False
+es,p2,C(gender)[T.Male],295,-0.08525745251875001,0.03834348401395003,False
+es,p2,C(ethnicity)[T.Mixed],132,-0.2970736536265614,-0.11681784811063918,True
+es,p2,C(ethnicity)[T.Other],100,-0.24264072866768419,-0.03460770251061511,True
+es,p2,C(ethnicity)[T.White],280,-0.3479093972370226,-0.21554825636445657,True
+es,p2,C(nationality)[T.Colombia],75,13.836335833392397,-0.009402958921064944,False
+es,p2,C(nationality)[T.Mexico],124,-2.3776852192933786,0.5778874975168025,False
+es,p2,C(nationality)[T.Spain],124,-0.01487486956593782,-0.053544378203001286,True
+es,p2,C(nationality)[T.United States],108,-0.1552927254753486,-0.34729078855422757,True
+es,p2,C(country_birth)[T.Colombia],75,-13.970374297362028,0.014583940089085382,False
+es,p2,C(country_birth)[T.Mexico],132,-0.4440224851800625,0.4667595953671342,False
+es,p2,C(country_birth)[T.Spain],124,3.140462863852527e-05,0.14540916354603026,True
+es,p2,C(country_birth)[T.United States],72,0.036370029221386116,0.2507037994306947,True
+es,p2,C(country_residence)[T.Mexico],124,2.5715378319432314,-0.7258355204599707,False
+es,p2,C(country_residence)[T.Spain],177,-0.3506193328894472,0.4578109871315997,False
+es,p2,C(country_residence)[T.United Kingdom],29,-0.3883753850364813,0.37685275477484487,False
+es,p2,C(country_residence)[T.United States],146,0.014257031873625294,0.3892457986198439,True
+es,p2,C(employment_status)[T.Full-Time],234,-0.10919246625421078,-0.24935649309987493,True
+es,p2,"C(employment_status)[T.Not in paid work (e.g. homemaker', 'retired or disabled)]",22,-0.24694932741549666,-0.24810795721337198,True
+es,p2,C(employment_status)[T.Other],28,-0.09804449141867062,-0.2279228415388387,True
+es,p2,C(employment_status)[T.Part-Time],81,-0.07208165210386815,-0.29602267780902314,True
+es,p2,C(employment_status)[T.Unemployed (and job seeking)],140,-0.16614437665400897,-0.33760714397253555,True
+es,p2,C(student_status)[T.Yes],199,0.11677008605861215,-0.011999098025892744,False
+es,p2,age_centered,520,0.00739004265508121,-0.0037150806505591724,False

@@ -1,0 +1,33 @@
+# Environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Regenerated corpus data (contains MultiPICo texts; download with 01_data_exploration.py)
+pipeline/data_raw.parquet
+pipeline/data_preprocessed*.parquet
+pipeline/data_??.parquet
+pipeline/data_??_v2.parquet
+pipeline/data_??_undersampled.parquet
+pipeline/data_selected.parquet
+pipeline/rag_annotations.parquet
+pipeline/rag_text_index.parquet
+
+# Raw API traffic and run state
+pipeline/*batch_input.jsonl
+pipeline/*batch_output.jsonl
+pipeline/*batch_id.txt
+pipeline/*submission.json
+pipeline/gpt41_chunk_*.jsonl
+pipeline/gpt41_out_*.jsonl
+pipeline/gpt41_chunks_state.json
+pipeline/*_predictions_raw.parquet
+pipeline/data_predictions.parquet
+pipeline/*parse_failures.csv
+pipeline/*reasoning_sample.csv
+pipeline/*.log
+
+# Secrets
+.env

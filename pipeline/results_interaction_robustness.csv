@@ -1,0 +1,8 @@
+language,interaction,dr2_m1_base_pp,p_m1_base,bonf_sig_m1_base,dr2_m4_base_pp,chi2_m4_base,p_m4_base,method_m4,note_m4,ia_term_m4,bonf_sig_m4_base
+ar,age × nationality,0.5932603380281067,8.466530206390736e-11,True,1.5743339063115307,162.6682860605506,0.0,lmm,original term,age_centered:C(nationality),True
+de,age × nationality,0.6346219883296955,7.331358198510672e-22,True,0.7440577651357216,,,ols_fallback,original term,age_centered:C(nationality),False
+en,gender × nationality,2.287483377672733,1.8745259975736728e-73,True,2.3109795683019225,,,ols_fallback,original term,C(gender):C(nationality),False
+es,age × nationality,0.2219117838895683,1.3247396807622145e-12,True,0.36638592477021975,,,ols_fallback,original term,age_centered:C(nationality),False
+fr,age × ethnicity,0.6462338835112522,1.166332211596918e-15,True,0.3753706439313713,36.526916781644104,5.7937975972421896e-08,lmm,original term,age_centered:C(ethnicity),True
+hi,age × ethnicity,1.0054351533828652,3.473858067542225e-13,True,1.0534143889029026,,,ols_fallback,original term,age_centered:C(ethnicity),False
+pt,age × gender,0.2857489810900874,1.5831558980772783e-08,True,0.029680976145892574,3.003530293543008,0.08308329603936593,lmm,original term,age_centered:C(gender),False
